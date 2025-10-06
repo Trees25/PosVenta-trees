@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "pos-ventas",
+    "dist": "pos-ventas",
+    "pos-ventas-react": "pos-ventas"
+  },
+  "targets": {},
+  "etags": {}
+}
