@@ -1,0 +1,33 @@
+
+[functions.mercadopago-webhooks]
+enabled = true
+verify_jwt = true
+import_map = "./functions/mercadopago-webhooks/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/mercadopago-webhooks/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/mercadopago-webhooks/*.html" ]
+
+[functions.get-payment-status]
+enabled = true
+verify_jwt = true
+import_map = "./functions/get-payment-status/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/get-payment-status/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/get-payment-status/*.html" ]
+
+[functions.generate-debt-payment-link]
+enabled = true
+verify_jwt = true
+import_map = "./functions/generate-debt-payment-link/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/generate-debt-payment-link/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/generate-debt-payment-link/*.html" ]

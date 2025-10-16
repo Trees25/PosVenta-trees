@@ -20,20 +20,11 @@ export const EmpresaTemplate = () => {
           <SidebarItem to="empresabasicos">Básico</SidebarItem>
           <SidebarItem to="monedaconfig">Moneda</SidebarItem>
         </SidebarSection>
-
-        {/* <SidebarSection>
-          <SidebarTitle >Esquemas</SidebarTitle>
-          <SidebarItem to="macroprocesos">Macroprocesos</SidebarItem>
-        </SidebarSection> */}
-        {/* <SidebarSection>
-          <SidebarTitle to="ss">Soporte</SidebarTitle>
-          <SidebarItem to="ss">Centro de ayuda</SidebarItem>
-        </SidebarSection>
         <Btn1 funcion={cerrarSesion}
           bgcolor="transparent"
           color={({theme}) => theme.text}
           titulo="cerrar sesión"
-        /> */}
+        /> 
       </Sidebar>
     </PageContainer>
   </Main>

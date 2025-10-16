@@ -147,7 +147,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 50%;
   padding: 20px;
   @media ${Device.desktop} {
     height: calc(100vh - 40px);
@@ -161,7 +161,7 @@ const SubContentSection = styled.div`
   @media ${Device.desktop} {
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
   }
 `;
 

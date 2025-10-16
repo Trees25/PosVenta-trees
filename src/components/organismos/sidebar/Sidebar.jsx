@@ -28,7 +28,7 @@ export function Sidebar({ state, setState }) {
           <div className="imgcontent">
             <img src={v.logo} />
           </div>
-          <h2>Ada369 WEB</h2>
+          <h2>Trees PosVenta</h2>
         </div>
         {LinksArray.map(({ icon, label, to }) => (
           <div
@@ -73,7 +73,7 @@ export function Sidebar({ state, setState }) {
               <Icon
                 color="#CE82FF"
                 className="Linkicon"
-                icon="heroicons:ellipsis-horizontal-circle-solid"
+                icon="heroicons:arrow-right-on-rectangle-solid"
               />
               <span  className={state ? "label_ver" : "label_oculto"}>SALIR</span>
             </section>
